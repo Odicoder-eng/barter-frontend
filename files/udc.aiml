@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- Greeting -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Hello! I am your career guidance chatbot, here to help you explore computing careers that match your skills and interests. Let's start by learning more about what you enjoy most in the field of computing. Could you share your primary area of interest or strength?  TYPE EITHER I LOVE PROGRAMMING ,  I LOVE WORKING WITH DATA , I AM INTERESTED IN CYBERSECURITY , I WANT TO WORK WITH AI , I LIKE MANAGING SYSTEMS OR I AM NOT SURE. 
+        </template>
+    </category>
+
+    <!-- Software Developer Recommendation -->
+    <category>
+        <pattern>I LOVE PROGRAMMING</pattern>
+        <template>
+            That's fantastic! Programming is a highly valued skill in the tech industry. You might consider a career as a Software Developer. This role involves designing, building, and maintaining software applications. Proficiency in languages like Python, Java, or C++ and strong problem-solving abilities are essential. Would you like more information on the required skills or typical job responsibilities?   TYPE "YES SOFTWARE DEVELOPER"
+        </template>
+    </category>
+    <category>
+        <pattern>YES SOFTWARE DEVELOPER</pattern>
+        <template>
+            Great! To become a Software Developer, you should learn programming languages like Python, Java, and C++. The average salary for a Software Developer is around $85,000–$110,000 annually. You can start learning on platforms like Codecademy, Udemy, or freeCodeCamp. Recommended certifications include the Oracle Certified Professional (Java), Microsoft Certified: Azure Developer, and Certified Kubernetes Application Developer (CKAD).
+        </template>
+    </category>
+
+    <!-- Data Analyst Recommendation -->
+    <category>
+        <pattern>I LOVE WORKING WITH DATA</pattern>
+        <template>
+            Great choice! A career as a Data Analyst could be an excellent fit for you. Data Analysts work to collect, interpret, and present data to help organizations make informed decisions. Key skills include SQL, data visualization tools like Tableau, and strong analytical thinking. Would you like insights into how to get started or the industries that often hire Data Analysts?    TYPE : YES DATA ANALYST
+        </template>
+    </category>
+    <category>
+        <pattern>YES DATA ANALYST</pattern>
+        <template>
+            Excellent! As a Data Analyst, focus on learning tools like SQL, Excel, Tableau, and Python for data analysis. The average salary for a Data Analyst is about $60,000–$90,000 annually. Platforms like Coursera, DataCamp, and edX offer excellent learning resources. Consider earning certifications such as Microsoft Certified: Data Analyst Associate, Tableau Desktop Specialist, or IBM Data Analyst Professional Certificate. Would you like to explore anything else?
+        </template>
+    </category>
+
+    <!-- Cybersecurity Specialist Recommendation -->
+    <category>
+        <pattern>I AM INTERESTED IN CYBERSECURITY</pattern>
+        <template>
+            Cybersecurity is a critical and fast-growing field. As a Cybersecurity Specialist, you would focus on protecting systems and data from threats, using tools like firewalls and encryption. A solid understanding of networking, ethical hacking, and security protocols is essential. Would you like to learn about certifications or career paths in cybersecurity?  TYPE "YES CYBERSECURITY"
+        </template>
+    </category>
+    <category>
+        <pattern>YES CYBERSECURITY</pattern>
+        <template>
+            Fantastic! For a career in cybersecurity, learn networking, cryptography, and tools like Wireshark and Kali Linux. Programming languages like Python and Bash scripting are also valuable. The average salary for Cybersecurity Specialists is around $80,000–$120,000 annually. Great learning resources include Cybersecurity Training on Cybrary, EC-Council’s CEH courses, and Pluralsight. Recommended certifications include Certified Information Systems Security Professional (CISSP), Certified Ethical Hacker (CEH), and CompTIA Security+. 
+        </template>
+    </category>
+
+    <!-- AI Engineer Recommendation -->
+    <category>
+        <pattern>I WANT TO WORK WITH AI</pattern>
+        <template>
+            Exciting choice! Artificial Intelligence is shaping the future of technology. As an AI Engineer, you would develop intelligent systems, build machine learning models, and integrate AI into various applications. Skills in Python, TensorFlow, and deep learning frameworks are key. Would you like to know more about AI projects or the industries hiring AI experts?   TYPE "YES AI ENGINEER"
+        </template>
+    </category>
+    <category>
+        <pattern>YES AI ENGINEER</pattern>
+        <template>
+            Awesome! For an AI Engineering career, focus on Python, TensorFlow, PyTorch, and libraries like Scikit-learn. The average salary for AI Engineers ranges from $110,000–$150,000 annually. You can learn AI and machine learning on Coursera (Andrew Ng’s ML course), edX, and Kaggle. Key certifications include Google Professional Machine Learning Engineer, AWS Certified Machine Learning Specialty, and Microsoft AI Engineer. Ready to start your AI journey?
+        </template>
+    </category>
+
+    <!-- System Administrator Recommendation -->
+    <category>
+        <pattern>I LIKE MANAGING SYSTEMS</pattern>
+        <template>
+            Excellent! A career as a System Administrator could align with your strengths. System Administrators ensure that an organization's IT infrastructure runs efficiently, including maintaining servers and resolving technical issues. Knowledge of operating systems, networking, and troubleshooting is critical. Shall we explore certification options or typical career growth in this field?    TYPE "YES SYSTEM ADMINISTRATOR"
+        </template>
+    </category>
+    <category>
+        <pattern>YES SYSTEM ADMINISTRATOR</pattern>
+        <template>
+            Good choice! To excel as a System Administrator, learn about Linux, Windows Server, and scripting languages like PowerShell and Bash. The average salary for System Administrators is around $70,000–$100,000 annually. Training resources include Red Hat Academy, Linux Academy, and LinkedIn Learning. Important certifications are CompTIA Server+, Microsoft Certified: Windows Server Administrator, and Red Hat Certified System Administrator (RHCSA). 
+        </template>
+    </category>
+
+    <!-- General Interests -->
+    <category>
+    <pattern>I AM NOT SURE</pattern>
+    <template>
+        That's okay! Here are five computing jobs you might consider exploring, along with a brief description and what you need to learn to excel in each:
+
+        1. **Software Developer**: Software Developers design, code, and maintain applications and systems. They work on various programming projects to solve problems and create innovative solutions. Learn programming languages like Python, Java, or C++, and understand concepts like algorithms and data structures.
+
+        2. **Data Analyst**: Data Analysts interpret and present data to help organizations make informed decisions. They work with data visualization tools, statistical methods, and databases. Learn SQL, Excel, and data visualization tools like Tableau, along with foundational statistics.
+
+        3. **Cybersecurity Specialist**: Cybersecurity Specialists protect systems and networks from security threats and vulnerabilities. Their work includes ethical hacking, incident response, and implementing security protocols. Learn networking, cryptography, Python, and tools like Kali Linux.
+
+        4. **Artificial Intelligence (AI) Engineer**: AI Engineers create intelligent systems and machine learning models to solve complex problems. They work on building algorithms and training models. Learn Python, TensorFlow, machine learning concepts, and tools like PyTorch.
+
+        5. **System Administrator**: System Administrators manage and maintain an organization's IT infrastructure, including servers and networks. They ensure systems run smoothly and securely. Learn Linux, Windows Server, networking concepts, and scripting languages like PowerShell or Bash.
+
+        Do any of these sound interesting to you? Let me know, and we can explore further!
+    </template>
+</category>
+
+
+    <!-- Default Fallback -->
+    <category>
+        <pattern>*</pattern>
+        <template>
+            I'm sorry, I didn't quite understand that. Could you provide more details about your interests or skills in computing? I'm here to help guide you to a career that fits your profile. TYPE EITHER I LOVE PROGRAMMING ,  I LOVE WORKING WITH DATA , I AM INTERESTED IN CYBERSECURITY , I WANT TO WORK WITH AI , I LIKE MANAGING SYSTEMS OR I AM NOT SURE. 
+        </template>
+    </category>
+</aiml>
